@@ -40,6 +40,16 @@
   padding: 2em;
 }
 
-.read-the-docs {
-  color: #888;
+
+
+.react-flow__node {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #eee;
+  background-image: url('https://randomuser.me/api/portraits/women/44.jpg');
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  border: 2px solid #2C3E50;
 }

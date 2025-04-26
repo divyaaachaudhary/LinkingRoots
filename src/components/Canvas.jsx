@@ -6,6 +6,7 @@ import ReactFlow, {
     ReactFlowProvider
 } from 'reactflow';
 import 'reactflow/dist/style.css';
+import '../App.css';
 
 let id = 0;
 const getId = () => `node_${id++}`;
@@ -31,7 +32,8 @@ const Canvas = () => {
         const newNode = {
             id: getId(),
             position,
-            data: { label: `Node ${id}` },
+
+
         };
 
         setNodes((nodes) => [...nodes, newNode]);
@@ -58,7 +60,7 @@ const Canvas = () => {
                 />
             </ReactFlowProvider>
         </div>
-    );
+    )
 };
 
 export default Canvas;
